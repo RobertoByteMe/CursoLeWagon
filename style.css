@@ -141,6 +141,15 @@ a:hover img {
     .cards {
         grid-template-columns: 1fr 1fr;
     }
+    .tipewriter {
+        animation: animated-text 4s steps(31, end);
+        animation-iteration-count: infinite;
+        display: inline-block;
+        white-space: nowrap;
+        letter-spacing: 1px;
+        overflow: hidden;
+        position: relative;
+    }
 }
 
 @media (min-width: 1000px) {
